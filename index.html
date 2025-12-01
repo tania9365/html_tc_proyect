@@ -7,18 +7,18 @@
 </head>
 <body>
     <header class="site-header">
-       <form action="registrardatos.php" method="post"> 
          <h1>Nail It!</h1>
          <p class="subtitle"><em>Clavamos tu estilo</em></p>
-        <select name="MENU"
-            <optgroup label="MENU">
-                <strong><option value="1">Servicios</option></strong>
-                <option value="2">Magic manicure</option>
-                <option value="3">Magic pedicure</option>
-                <option value="4">Magic spa</option>
-                <option value="5">Magic pestañas</option>
-            </optgroup>
-       </form>
+        <div class="navbar">
+            <button onclick="menu.hidden^=1">≡</button>
+            <ul id="menu" hidden>
+                <li>Magic pedicure</li>
+                <li>Magic manicure</li>
+                <li>Magic spa</li>
+                <li>Magic pestañas</li>
+                <li>Magic masaje</li>
+            </ul>
+        </div>
     </header>
     <main class="content">
         <section class="card">
