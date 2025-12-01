@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My proyect</title>
-    <link rel="stylesheet" href="styles.CSS"/>
 </head>
 <body>
     <header class="site-header">
-        <h1>Nail It!</h1>
-        <p class="subtitle"><em>Clavamos tu estilo</em></p>
-       <form action="registrardatos.php" method="post"> 
-        <select name="MENU"
-            <optgroup label="MENU">
-                <strong><option value="1">Servicios</option></strong>
-                <option value="2">Magic manicure</option>
-                <option value="3">Magic pedicure</option>
-                <option value="4">Magic spa</option>
-                <option value="5">Magic pestañas</option>
-            </optgroup>
-       </form>
+         <h1>Nail It!</h1>
+         <p class="subtitle"><em>Clavamos tu estilo</em></p>
+        <div class="navbar">
+            <button onclick="menu.hidden^=1">≡</button>
+            <ul id="menu" hidden>
+                <li>Magic pedicure</li>
+                <li>Magic manicure</li>
+                <li>Magic spa</li>
+                <li>Magic pestañas</li>
+                <li>Magic masaje</li>
+            </ul>
+        </div>
     </header>
-<main class="content">
+    <main class="content">
         <section class="card">
             <h2>Conoce tu estilo</h2>
             <p>Tu estilo es la huella única de tu personalidad. En Nail It!, no solo pintamos uñas, revelamos la esencia de lo que te hace vibrar. Deja que tus manos cuenten tu historia sin palabras. Descubre la obra de arte que ya eres.</p>
