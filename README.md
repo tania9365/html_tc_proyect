@@ -7,7 +7,7 @@ Este proyecto se genero para implementar una pagina con html y css y repositorio
 
 ## Como ejecutar el proyecto 
 1. Clonar el repositorio 
- git clone https://github.com/tania9365/html_tc_.git 
+ git clone https://github.com/tania9365/html_tc_proyect.git 
 2. Abre el archivo index.html en su navegador
 
 ## Requisitos <!-- Seccion donde se especifica que requirimientos debe tener el usuario-->
